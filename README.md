@@ -42,7 +42,7 @@ In this system:
 
 ## API Endpoints
 POST    /login  
-GET     /task    (permission - allowany, to get all the list for anyone)
+GET     /task     (permission - allowany, to get all the list for anyone)
 GET     /tasks
 POST    /tasks  
 PUT     /tasks/{id}  
