@@ -1,12 +1,15 @@
-## UserControl Task API
+# UserControl Task API
 
 ## Description
-UserControl Task API is a role-based task management REST API built using Django and Django REST Framework.
+UserControl Task API is a role-based task management REST API built using Django and Django REST Framework.  
+This project focuses on secure user management and controlled access to task operations.
 
 In this system:
-- Admin can allow or restrict users.
-- Authorized users can perform full CRUD operations on tasks.
-- Authentication is implemented using Token Authentication.
+- Admin has the authority to allow or restrict users.
+- Only authorized users can perform full CRUD operations on tasks.
+- Token Authentication is implemented to secure all API endpoints.
+
+This project demonstrates real-world backend concepts like authentication, permission handling, and role-based access control.
 
 ## Features
 - Token-based authentication
@@ -22,11 +25,11 @@ In this system:
 - Role-based permission system
 
 ## Tech Stack
-- Python
-- Django
-- Django REST Framework
-- Token Authentication
-- SQLite / MySQL
+- Python  
+- Django  
+- Django REST Framework  
+- Token Authentication  
+- SQLite / MySQL  
 
 ## User Roles
 
@@ -41,20 +44,21 @@ In this system:
 - Delete tasks
 
 ## API Endpoints
-POST    /login  
-GET     /task     (permission - allowany, to get all the list for anyone)
-GET     /tasks
-POST    /tasks  
-PUT     /tasks/{id}  
-DELETE  /tasks/{id}  
+POST /login  
+GET /task  
+
+GET /tasks  
+POST /tasks  
+PUT /tasks/{id}  
+DELETE /tasks/{id}
 
 ## How to Run Project
-
-1. Clone the repository
-2. Create virtual environment
-3. Install dependencies
-4. Run migrations
-5. Start server
+1. Clone the repository  
+2. Create virtual environment  
+3. Install dependencies  
+4. Run migrations  
+5. Start server  
 
 ## Author
 Sajith Sabu
+
