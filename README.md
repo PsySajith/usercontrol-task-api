@@ -1,4 +1,4 @@
-# UserControl Task API
+## UserControl Task API
 
 ## Description
 UserControl Task API is a role-based task management REST API built using Django and Django REST Framework.
@@ -42,7 +42,8 @@ In this system:
 
 ## API Endpoints
 POST    /login  
-GET     /tasks  
+GET     /task    (permission - allowany, to get all the list for anyone)
+GET     /tasks
 POST    /tasks  
 PUT     /tasks/{id}  
 DELETE  /tasks/{id}  
